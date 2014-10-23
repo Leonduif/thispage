@@ -1,0 +1,30 @@
+{
+  "name": "AngularJS project",
+  "version": "0.0.0",
+  "authors": [
+    "Leon <l.s.duif@gmail.com>"
+  ],
+  "description": "Game of Thrones characters overview - Season 1",
+  "main": "index.html",
+  "keywords": [
+    "Game",
+    "of",
+    "thrones",
+    "season",
+    "1",
+    "characters",
+    "overview",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.0"
+  }
+}
