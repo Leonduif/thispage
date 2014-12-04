@@ -1,21 +1,11 @@
 {
-  "name": "AngularJS project",
+  "name": "Thispage",
   "version": "0.0.0",
   "authors": [
     "Leon <l.s.duif@gmail.com>"
   ],
-  "description": "Game of Thrones characters overview - Season 1",
+  "description": "",
   "main": "index.html",
-  "keywords": [
-    "Game",
-    "of",
-    "thrones",
-    "season",
-    "1",
-    "characters",
-    "overview",
-    "angularjs"
-  ],
   "license": "MIT",
   "ignore": [
     "**/.*",

@@ -1,0 +1,96 @@
+$breakpoint-small: 450px;
+$breakpoint-medium: 750px;
+$breakpoint-big: 1150px;
+
+// Small
+.small-1-3 {
+    @media (max-width: $breakpoint-small) {
+        width: 33.33%;
+    }
+}
+
+.small-1-2 {
+    @media (max-width: $breakpoint-small) {
+        width: 50%;
+    }
+}
+
+.small-2-3 {
+    @media (max-width: $breakpoint-small) {
+        width: 66.66%;
+    }
+}
+
+.small-full {
+    @media (max-width: $breakpoint-small) {
+        width: 100%;
+    }
+}
+
+// Medium
+.medium-1-8 {
+    @media (min-width: $breakpoint-medium) {
+        width: 12.5%;
+    }
+}
+
+.medium-1-4 {
+    @media (min-width: $breakpoint-medium) {
+        width: 25%;
+    }
+}
+
+.medium-1-3 {
+    @media (min-width: $breakpoint-medium) {
+        width: 33.33%;
+    }
+}
+
+.medium-1-2 {
+    @media (min-width: $breakpoint-medium) {
+        width: 50%;
+    }
+}
+
+.medium-2-3 {
+    @media (min-width: $breakpoint-medium) {
+        width: 66.66%;
+    }
+}
+
+.medium-full {
+    @media (min-width: $breakpoint-medium) {
+        width: 100%;
+    }
+}
+
+// Big
+.big-1-8 {
+    @media (min-width: $breakpoint-big) {
+        width: 12.5%;
+    }
+}
+
+.big-1-4 {
+    @media (min-width: $breakpoint-big) {
+        width: 25%;
+    }
+}
+
+.big-1-3 {
+    @media (min-width: $breakpoint-big) {
+        width: 33.33%;
+    }
+}
+
+.big-1-2 {
+    @media (min-width: $breakpoint-big) {
+        width: 50%;
+    }
+}
+
+.big-2-3 {
+    @media (min-width: $breakpoint-big) {
+        width: 66.66%;
+    }
+}

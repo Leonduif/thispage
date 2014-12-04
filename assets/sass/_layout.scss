@@ -1,5 +1,86 @@
 .container {
+    margin: 0 auto;
+    width: 98%;
+    @extend %cf;
+    max-width: 950px;
+}
+
+.vertical-align {
+    position: relative;
+    top: 50%;
+    @include transform(translateY(-50%));
+}
+
+.vertical-padding-small {
+    padding: 10px 0;
+}
+
+// Media object
+.media, .media_bd {
+    @extend %cf;
+}
+
+.media_img {
+    float: left;
+    img {
+        display: block;
+    }
+}
+
+// Centering block
+.block-center {
     display: block;
     margin: 0 auto;
-    width: 80%;
+}
+
+.block-center-big {
+    display: block;
+    margin: 0 auto;
+    @media (min-width: $breakpoint-big) {
+        margin: 0;
+    }
+}
+
+// Common spacing classes
+.trailer-1 {
+    margin-bottom: 20px;
+}
+
+.trailer-2 {
+    margin-bottom: 30px;
+}
+
+.leader-1 {
+    margin-top: 10px;
+}
+
+.leader-2 {
+    margin-top: 20px;
+}
+
+.right-1 {
+    margin-right: 10px;
+}
+
+.right-2 {
+    margin-right: 20px;
+}
+
+// Specific classes for specific scenarios
+.info {
+    max-width: 460px; // 460px because the written line image has the same width
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+// TESTING 100% HEIGHT
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.bg-green, .bg-blue, .bg-orange {
+    height: 100%;
 }

@@ -1,13 +1,431 @@
-/* line 1, ../assets/sass/_general.scss */
+/* line 2, ../assets/sass/_general.scss */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../assets/sass/_general.scss */
+.container:after, .media:after, .media_bd:after, .horizontal-list:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 450px) {
+  /* line 6, ../assets/sass/_grid.scss */
+  .small-1-3 {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 450px) {
+  /* line 12, ../assets/sass/_grid.scss */
+  .small-1-2 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 450px) {
+  /* line 18, ../assets/sass/_grid.scss */
+  .small-2-3 {
+    width: 66.66%;
+  }
+}
+
+@media (max-width: 450px) {
+  /* line 24, ../assets/sass/_grid.scss */
+  .small-full {
+    width: 100%;
+  }
+}
+
+@media (min-width: 750px) {
+  /* line 31, ../assets/sass/_grid.scss */
+  .medium-1-8 {
+    width: 12.5%;
+  }
+}
+
+@media (min-width: 750px) {
+  /* line 37, ../assets/sass/_grid.scss */
+  .medium-1-4 {
+    width: 25%;
+  }
+}
+
+@media (min-width: 750px) {
+  /* line 43, ../assets/sass/_grid.scss */
+  .medium-1-3 {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 750px) {
+  /* line 49, ../assets/sass/_grid.scss */
+  .medium-1-2 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 750px) {
+  /* line 55, ../assets/sass/_grid.scss */
+  .medium-2-3 {
+    width: 66.66%;
+  }
+}
+
+@media (min-width: 750px) {
+  /* line 61, ../assets/sass/_grid.scss */
+  .medium-full {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1150px) {
+  /* line 68, ../assets/sass/_grid.scss */
+  .big-1-8 {
+    width: 12.5%;
+  }
+}
+
+@media (min-width: 1150px) {
+  /* line 74, ../assets/sass/_grid.scss */
+  .big-1-4 {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1150px) {
+  /* line 80, ../assets/sass/_grid.scss */
+  .big-1-3 {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 1150px) {
+  /* line 86, ../assets/sass/_grid.scss */
+  .big-1-2 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1150px) {
+  /* line 92, ../assets/sass/_grid.scss */
+  .big-2-3 {
+    width: 66.66%;
+  }
 }
 
 /* line 1, ../assets/sass/_layout.scss */
 .container {
+  margin: 0 auto;
+  width: 98%;
+  max-width: 950px;
+}
+
+/* line 8, ../assets/sass/_layout.scss */
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 14, ../assets/sass/_layout.scss */
+.vertical-padding-small {
+  padding: 10px 0;
+}
+
+/* line 23, ../assets/sass/_layout.scss */
+.media_img {
+  float: left;
+}
+/* line 25, ../assets/sass/_layout.scss */
+.media_img img {
+  display: block;
+}
+
+/* line 31, ../assets/sass/_layout.scss */
+.block-center {
   display: block;
   margin: 0 auto;
-  width: 80%;
+}
+
+/* line 36, ../assets/sass/_layout.scss */
+.block-center-big {
+  display: block;
+  margin: 0 auto;
+}
+@media (min-width: 1150px) {
+  /* line 36, ../assets/sass/_layout.scss */
+  .block-center-big {
+    margin: 0;
+  }
+}
+
+/* line 45, ../assets/sass/_layout.scss */
+.trailer-1 {
+  margin-bottom: 20px;
+}
+
+/* line 49, ../assets/sass/_layout.scss */
+.trailer-2 {
+  margin-bottom: 30px;
+}
+
+/* line 53, ../assets/sass/_layout.scss */
+.leader-1 {
+  margin-top: 10px;
+}
+
+/* line 57, ../assets/sass/_layout.scss */
+.leader-2 {
+  margin-top: 20px;
+}
+
+/* line 61, ../assets/sass/_layout.scss */
+.right-1 {
+  margin-right: 10px;
+}
+
+/* line 65, ../assets/sass/_layout.scss */
+.right-2 {
+  margin-right: 20px;
+}
+
+/* line 70, ../assets/sass/_layout.scss */
+.info {
+  max-width: 460px;
+}
+
+/* line 74, ../assets/sass/_layout.scss */
+.overflow {
+  overflow: hidden;
+}
+
+/* line 79, ../assets/sass/_layout.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 84, ../assets/sass/_layout.scss */
+.bg-green, .bg-blue, .bg-orange {
+  height: 100%;
+}
+
+/* line 1, ../assets/sass/_backgrounds.scss */
+.bg-grey {
+  background: url("/assets/img/patterns/bg-grey.jpg");
+}
+
+/* line 5, ../assets/sass/_backgrounds.scss */
+.bg-green {
+  background: url("/assets/img/patterns/bg-green.jpg");
+}
+
+/* line 9, ../assets/sass/_backgrounds.scss */
+.bg-blue {
+  background: url("/assets/img/patterns/bg-blue.jpg");
+}
+
+/* line 13, ../assets/sass/_backgrounds.scss */
+.bg-orange {
+  background: url("/assets/img/patterns/bg-orange.jpg");
+}
+
+/* line 4, ../assets/sass/_lists.scss */
+.horizontal-list li {
+  display: inline-block;
+  list-style: none;
+}
+/* line 8, ../assets/sass/_lists.scss */
+.horizontal-list a {
+  text-decoration: none;
+}
+
+/* line 14, ../assets/sass/_lists.scss */
+.primary-list li:after {
+  content: '|';
+  margin: 0 10px 0 20px;
+}
+/* line 18, ../assets/sass/_lists.scss */
+.primary-list li:last-child:after {
+  content: '';
+}
+
+/* line 2, ../assets/sass/_typography.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 7, ../assets/sass/_typography.scss */
+.font-medium {
+  font-size: 36px;
+}
+
+/* line 11, ../assets/sass/_typography.scss */
+.font-big {
+  font-size: 68px;
+}
+
+/* line 16, ../assets/sass/_typography.scss */
+.font-playful {
+  font-family: 'brain_flowerregular';
+}
+
+/* line 20, ../assets/sass/_typography.scss */
+.font-kpn-normal {
+  font-family: 'kpn_accent_normal';
+  line-height: 1.5em;
+}
+
+/* line 26, ../assets/sass/_typography.scss */
+.font-white {
+  color: #FFF;
+}
+
+@font-face {
+  font-family: 'brain_flowerregular';
+  src: url("/assets/fonts/brain_flower/Brain Flower Euro.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'kpn_accent_normal';
+  src: url("/assets/fonts/KPN Accent/KPN Accent Normal.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'kpn_accent_light';
+  src: url("/assets/fonts/KPN Accent/KPN Accent Light.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'kpn_accent_bold';
+  src: url("/assets/fonts/KPN Accent/KPN Accent Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'kpn_accent_pricing';
+  src: url("/assets/fonts/KPN Accent/KPN Accent Pricing.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'vag_rounded_black';
+  src: url("/assets/fonts/VAG Rounded Std/VAGRoundedStd-Black.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'vag_rounded_bold';
+  src: url("/assets/fonts/VAG Rounded Std/VAGRoundedStd-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'vag_rounded_light';
+  src: url("/assets/fonts/VAG Rounded Std/VAGRoundedStd-Light.otf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'vag_rounded_thin';
+  src: url("/assets/fonts/VAG Rounded Std/VAGRoundedStd-Thin.otf");
+  font-weight: normal;
+}
+/* line 1, ../assets/sass/_edges.scss */
+.edge-top-green {
+  position: relative;
+  z-index: 2;
+}
+/* line 4, ../assets/sass/_edges.scss */
+.edge-top-green:after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: url("/assets/img/edges/edge-top-green.png");
+}
+
+/* line 15, ../assets/sass/_edges.scss */
+.edge-bottom-green {
+  position: relative;
+}
+/* line 17, ../assets/sass/_edges.scss */
+.edge-bottom-green:before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: url("/assets/img/edges/edge-bottom-green.png");
+}
+
+/* line 28, ../assets/sass/_edges.scss */
+.edge-bottom-blue {
+  position: relative;
+  z-index: 1;
+}
+/* line 31, ../assets/sass/_edges.scss */
+.edge-bottom-blue:after {
+  content: '';
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  right: 0;
+  height: 11px;
+  background: url("/assets/img/edges/edge-bottom-blue.png");
+}
+
+/* line 42, ../assets/sass/_edges.scss */
+.edge-bottom-orange {
+  position: relative;
+}
+/* line 44, ../assets/sass/_edges.scss */
+.edge-bottom-orange:after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background: url("/assets/img/edges/edge-bottom-orange.png");
+}
+
+@media (min-width: 750px) {
+  /* line 1, ../assets/sass/_helpers.scss */
+  .pull-right-medium {
+    float: right !important;
+  }
+}
+
+@media (min-width: 1150px) {
+  /* line 7, ../assets/sass/_helpers.scss */
+  .pull-right-big {
+    float: right !important;
+  }
+}
+
+@media (min-width: 750px) {
+  /* line 13, ../assets/sass/_helpers.scss */
+  .pull-left-medium {
+    float: left !important;
+  }
+}
+
+@media (min-width: 1150px) {
+  /* line 19, ../assets/sass/_helpers.scss */
+  .pull-left-big {
+    float: left !important;
+  }
+}
+
+/* line 25, ../assets/sass/_helpers.scss */
+.clear {
+  clear: both !important;
 }

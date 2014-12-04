@@ -1,0 +1,27 @@
+.pull-right-medium {
+    @media (min-width: $breakpoint-medium) {
+        float: right !important;
+    }
+}
+
+.pull-right-big {
+    @media (min-width: $breakpoint-big) {
+        float: right !important;
+    }
+}
+
+.pull-left-medium {
+    @media (min-width: $breakpoint-medium) {
+        float: left !important;
+    }
+}
+
+.pull-left-big {
+    @media (min-width: $breakpoint-big) {
+        float: left !important;
+    }
+}
+
+.clear {
+    clear: both !important;
+}

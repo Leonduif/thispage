@@ -1,0 +1,83 @@
+// General
+.text-center {
+    text-align: center;
+}
+
+// Font sizes
+.font-medium {
+    font-size: 36px;
+}
+
+.font-big {
+    font-size: 68px;
+}
+
+// Headers
+.font-playful {
+    font-family: 'brain_flowerregular';
+}
+
+.font-kpn-normal {
+    font-family: 'kpn_accent_normal';
+    line-height: 1.5em;
+}
+
+// Font colors
+.font-white {
+    color: #FFF;
+}
+
+// Fonts
+@font-face {
+    font-family: 'brain_flowerregular';
+    src: url('/assets/fonts/brain_flower/Brain Flower Euro.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'kpn_accent_normal';
+    src: url('/assets/fonts/KPN Accent/KPN Accent Normal.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'kpn_accent_light';
+    src: url('/assets/fonts/KPN Accent/KPN Accent Light.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'kpn_accent_bold';
+    src: url('/assets/fonts/KPN Accent/KPN Accent Bold.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'kpn_accent_pricing';
+    src: url('/assets/fonts/KPN Accent/KPN Accent Pricing.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'vag_rounded_black';
+    src: url('/assets/fonts/VAG Rounded Std/VAGRoundedStd-Black.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'vag_rounded_bold';
+    src: url('/assets/fonts/VAG Rounded Std/VAGRoundedStd-Bold.otf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'vag_rounded_light';
+    src: url('/assets/fonts/VAG Rounded Std/VAGRoundedStd-Light.otf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'vag_rounded_thin';
+    src: url('/assets/fonts/VAG Rounded Std/VAGRoundedStd-Thin.otf');
+    font-weight: normal;
+}

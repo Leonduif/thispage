@@ -1,3 +1,15 @@
+// General
 * {
     @include box-sizing(border-box);
+    margin: 0;
+    padding: 0;
+}
+
+// Clearfix
+%cf {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
 }

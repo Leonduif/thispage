@@ -1,0 +1,21 @@
+// Lists
+.horizontal-list {
+    @extend %cf;
+    li {
+        display: inline-block;
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+.primary-list {
+    li:after {
+        content: '|';
+        margin: 0 10px 0 20px;
+    }
+    li:last-child:after { // does not work in IE8!
+        content: '';
+    }
+}

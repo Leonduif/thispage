@@ -1,0 +1,53 @@
+.edge-top-green {
+    position: relative;
+    z-index: 2;
+    &:after {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: 0;
+        right: 0;
+        height: 5px;
+        background: url('/assets/img/edges/edge-top-green.png');
+    }
+}
+
+.edge-bottom-green {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: url('/assets/img/edges/edge-bottom-green.png');
+    }
+}
+
+.edge-bottom-blue {
+    position: relative;
+    z-index: 1;
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -11px;
+        left: 0;
+        right: 0;
+        height: 11px;
+        background: url('/assets/img/edges/edge-bottom-blue.png');
+    }
+}
+
+.edge-bottom-orange {
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        right: 0;
+        height: 8px;
+        background: url('/assets/img/edges/edge-bottom-orange.png');
+    }
+}

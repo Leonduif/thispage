@@ -29,7 +29,7 @@ module.exports = function(grunt) {
                 }
             },
             html: {
-                files: ['index.html'],
+                files: ['index.html', 'views/*.html'],
                 options: {
                     livereload: true
                 }

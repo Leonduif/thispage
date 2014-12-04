@@ -1,4 +1,4 @@
-AngularJS Project
+Clean Slate
 =======
 
-This project contains an overview of the main characters in Season 1 of Game of Thrones.
+Use this project for clean slate files.
